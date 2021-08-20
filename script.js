@@ -68,7 +68,7 @@ function tryLeft(id) {
     const tryMSG = document.getElementById('try-text');
     if (tryTimes === '1') {
 
-        finalSubmitBtn.style.display = 'none';
+        finalSubmitBtn.disabled = true;
         tryMSG.style.display = 'none';
 
 
